@@ -1,0 +1,26 @@
+.banner {
+    background-image: url(../../assets/img/photo-pexels.jpg);
+    background-repeat: no-repeat; /*A imagem aparece apenas uma vez*/
+    background-size: 100%; /*Redimensiona a imagem*/
+    height: 800px;
+    border-bottom: 10px solid #000;
+
+    padding-top: 90px;
+    padding-left: 90px;
+
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 710px;
+}
+
+.banner .box {
+    margin-bottom: 35px;
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
+}
