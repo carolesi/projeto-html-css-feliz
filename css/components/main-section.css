@@ -10,8 +10,16 @@
     background-color: #000;
 }
 
+.main-section.-bgPurple {
+    background-color:#7C5E99;
+}
+
 .main-section.-bdFirst {
     border-bottom: 10px solid #D94A5F;
+}
+
+.main-section.-bdSecond {
+    border-bottom: 10px solid #000;
 }
 
 .main-section .main-title {
