@@ -1,4 +1,4 @@
-.action {
+.main-action {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
@@ -8,7 +8,7 @@
     margin-right: 30px;
 }
 
-.action::before {    /*Pseudo-elemento que adiciona os quadradinhos*/
+.main-action::before {    /*Pseudo-elemento que adiciona os quadradinhos*/
     content: "";
     background-color:#D94A5F;
     width: 10px;
