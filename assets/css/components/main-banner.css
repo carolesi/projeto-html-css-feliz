@@ -1,5 +1,5 @@
 .main-banner {
-    background-image: url(../../assets/img/photo-pexels.jpg);
+    background-image: url(../../img/photo-pexels.jpg);
     background-repeat: no-repeat; /*A imagem aparece apenas uma vez*/
     background-size: 100%; /*Redimensiona a imagem*/
     height: 800px;
