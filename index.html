@@ -28,6 +28,10 @@
     <link rel="stylesheet" href="assets/css/components/button-arrow.css">
     <link rel="stylesheet" href="assets/css/components/node-card.css">
     <link rel="stylesheet" href="assets/css/components/main-carousel.css">
+    <link rel="stylesheet" href="assets/css/components/main-form.css">
+    <link rel="stylesheet" href="assets/css/components/main-label.css">
+    <link rel="stylesheet" href="assets/css/components/main-input.css">
+    <link rel="stylesheet" href="assets/css/components/main-footer.css">
 </head>
 <body>
     <header class="main-header">
@@ -212,6 +216,34 @@
             Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
         </p>
     </section>
+
+    <section class="main-section -bgGrey -bdNone">
+        <h2 class="main-title -second">Contatos</h2>
+
+        <form action="" method="get" class="main-form">
+            
+            <label class="main-label" for="name">Nome</label>
+            <input class="main-input" id="name" type="text" name="name" required>
+            
+            
+            <label class="main-label" for="email">Email</label>
+            <input class="main-input" id="email" type="email" name="email" required>
+            
+            
+            <label class="main-label" for="message">Mensagem</label>
+            <textarea class="main-input -textarea" id="message" name="message" cols="30" rows="15" required></textarea>
+            
+            <input type="submit" value="Enviar" class="main-button -submit">
+        </form>
+    </section>
+
+    <footer class="main-footer">        
+        <div class="wrapper">
+            <a href=""><img src="assets/img/twitter_1.png" alt="Twitter Logo"></a>
+            <a href=""><img src="assets/img/youtube_1.png" alt="Youtube Logo"></a>
+            <a href=""><img src="assets/img/discord_1.png" alt="Discord Logo"></a>
+        </div>
+    </footer>
 
     <script src="assets/js/components/main-carousel.js"></script>
 </body>
