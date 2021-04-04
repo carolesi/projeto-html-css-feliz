@@ -11,6 +11,8 @@
     font-family: 'Fira Code', monospace;
 
     transition: transform 100ms linear;
+
+    cursor: pointer;
 }
 
 .main-button:hover {
