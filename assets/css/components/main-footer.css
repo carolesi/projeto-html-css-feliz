@@ -1,0 +1,16 @@
+.main-footer {
+    background-color: #000;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer .wrapper {
+    width: 15%;
+
+    display: flex;
+    justify-content: space-between;
+}
