@@ -5,12 +5,24 @@
     text-align: center;
     text-decoration: none;
     box-shadow: 5px 5px #000;
+
     font-size: 20px;
     color: #FFF;
+    font-family: 'Fira Code', monospace;
+
     transition: transform 100ms linear;
 }
 
 .main-button:hover {
     background-color: #da6a7a;
     transform: scale(1.05);
+}
+
+.main-button.-submit {
+    border: none;   /* Reseta a config 'submit' do browser */
+}
+
+.main-button.-submit:hover {
+    border: none;
+    transform: scale(1.02);   /* Conserta o overflow */
 }
