@@ -21,7 +21,7 @@
     font-family: 'Press Start 2P', sans-serif;
     font-size: 25px;
     font-weight: 400;
-    color: #D94A5F;
+    color: #F1A66A;
 
     margin-bottom: 50px;
 }
@@ -30,7 +30,7 @@
     display: flex;
     align-items: center;
 
-    background-color: #CEB02A;
+    background-color: #F1A66A;
     border: 5px solid #000;
 
     height: 150px;
@@ -43,5 +43,5 @@
 }
 
 .node-card.-first .logo{
-    background-color: #D94A5F;
+    background-color: #ca7835;
 } 

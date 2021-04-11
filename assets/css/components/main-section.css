@@ -1,21 +1,21 @@
 .main-section {
-    background-color: #D94A5F;
-    border-bottom: 10px solid #7C5E99;
+    background-color: #A5664D;
+    border-bottom: 10px solid #582630;
     
     padding-top: 50px;
     padding-bottom: 100px;
 }
 
 .main-section.-bgBlack {
-    background-color: #000;
+    background-color: #3f3f3f;
 }
 
 .main-section.-bgPurple {
-    background-color:#7C5E99;
+    background-color:#582630;
 }
 
 .main-section.-bgGrey {
-    background-color: #3A4042;
+    background-color: #3f3f3f;
 }
 
 .main-section.-bdNone {
@@ -23,7 +23,7 @@
 }
 
 .main-section.-bdFirst {
-    border-bottom: 10px solid #D94A5F;
+    border-bottom: 10px solid #F1A66A;
 }
 
 .main-section.-bdSecond {

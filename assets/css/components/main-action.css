@@ -10,7 +10,7 @@
 
 .main-action::before {    /*Pseudo-elemento que adiciona os quadradinhos*/
     content: "";
-    background-color:#D94A5F;
+    background-color:#A5664D;
     width: 10px;
     height: 10px;
     margin-right: 10px;

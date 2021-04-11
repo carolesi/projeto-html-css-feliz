@@ -1,6 +1,6 @@
 .main-button {
     display: inline-block;
-    background-color: #D94A5F;
+    background-color: #A5664D;
     padding: 18px 20px;
     text-align: center;
     text-decoration: none;
@@ -16,7 +16,7 @@
 }
 
 .main-button:hover {
-    background-color: #da6a7a;
+    background-color: #b97b63;
     transform: scale(1.05);
 }
 
