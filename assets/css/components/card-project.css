@@ -12,3 +12,9 @@
 .card-project.-blue {
     background-color: #ca7835;
 }
+
+.card-project > .logo.-second {
+    height: 280px;
+    width: 280px;
+    padding: 25px;
+}
